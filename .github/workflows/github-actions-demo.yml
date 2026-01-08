@@ -25,7 +25,7 @@ jobs:
       - name: List files in the repository
         run: |
           ls
-          echo test.txt
+          cat test.txt
       - name: Prepare tag (forks)
         run: |
           echo ${{ inputs.pr }}
